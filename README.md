@@ -1,4 +1,8 @@
-# handover_poc
-Proof of Concept for Handover Reporting running from streamlit
+To run the file:
+streamlit run ipl.py
 
-All data is dummy data. However, the feeds are designed to be quickly replicatable from SQL, Excel or any other datafeed
+If any dependencies missing, install them using the pip install command
+
+Examples: 
+	pip intsall streamlit
+	pip install plotly
