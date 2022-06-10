@@ -13,9 +13,9 @@ st.set_page_config(page_title='IPL AUCTIONS',  layout='wide', page_icon=':ipl:')
 #this is the header
  
 
-t1, t2 = st.columns((0.07,1)) 
+t1, t2 = st.columns((1,1)) 
 #my_name = '<p style="font-family:Caveat; color:Black;">By Rishabh Khanna</p>'
-t2.image('./Indian_Premier_League_Official_Logo.svg.png', width = 90)
+t1.image('./Indian_Premier_League_Official_Logo.svg.png', width = 90)
 t2.title("IPL AUCTIONS- PLAYER VALUATION")
 #t2.markdown(my_name, unsafe_allow_html=True)
 t2.markdown("By Rishabh Khanna")
